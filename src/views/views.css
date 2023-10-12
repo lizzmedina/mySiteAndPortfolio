@@ -1,0 +1,38 @@
+.container-home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.container-home p {
+    margin: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.container-about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.container-about p{
+    font-size: 1rem;
+    margin: 10px;
+    text-align: justify;
+}
+.container-about li{
+    font-size: 0.8rem;
+    margin: 15px;
+}
+.container-about h1{
+    font-size: 2rem;
+    margin-top: 30px;
+}
+.container-about  h5{
+    font-size: 2rem;
+    margin: 30px;
+}
+.container-content p, ul{
+    margin: 30px;
+}

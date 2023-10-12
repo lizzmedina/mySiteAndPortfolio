@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-app{
+  display: flex;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+ul, ol {
+  list-style: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+}

@@ -1,0 +1,21 @@
+
+.container-projects{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.grid-projects{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.project-card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.project-card img{
+    width: 200px;
+}
