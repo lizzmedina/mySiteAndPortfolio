@@ -2,23 +2,30 @@ import './views.css';
 const AboutMe: React.FC = () => {
     return (
       <div className="container-about">
-        <div className='container-titulo'>
-          <h1>About Me</h1>
+
+        <div className="container-head">
+          <div className="container-titulo">
+            <h2>About Me</h2>
+          </div>          
+          <div className="container-about-photo">
+            <img src="public/images/myPhoto.png" alt="foto de liza" />
+          </div>
         </div>
-        <div className='container-content'>
+        
+        <div className="container-content">
             <p>
-              Passionate about learning, who decided to change careers and go from a degree in early childhood 
-              pedagogy to a developer taking advantage of the opportunities available with virtuality.
+              Passionate about learning, who decided to change career and go from a degree in early childhood 
+              pedagogy to a developer, taking advantage of the opportunities available with virtuality.
               Some experience working in the Tech Developer integrative project, where I played the role of frontend 
-              using HTML, CSS, React, agile methodology: scrum, plus friendly, authentic and cheerful personality; 
-              with principles such as resilience, responsibility, perseverance and determination; which stands out for 
-              assertive communication, versatility, proactivity and efficiency.
+              using HTML, CSS, React, some libraries as font awesome, sweetalert, react icons, react calendar and including agile methodology: scrum;
+              plus friendly, authentic and cheerful personality; with principles such as resilience, responsibility, 
+              perseverance and determination; which stands out for assertive communication, versatility, proactivity and efficiency.
           </p>
           <h5>Studies</h5>
           <ul>
             <li>📜 Certified as "Professional Developer" by Digital House</li>
-            <li>📓 Student of Makaia's backend bootcamp</li>
-            <li>📙 Studen of frontend specialization at Digital House.</li> 
+            <li>📓 Student of Makaia's"backend bootcamp"</li>
+            <li>📙 Student of "frontend specialization"  at Digital House.</li> 
           </ul>
           <h5>Little more about me</h5>
           <p>I'm 28, living with my partner and pets. I'm a passionate learner with a background in early childhood 

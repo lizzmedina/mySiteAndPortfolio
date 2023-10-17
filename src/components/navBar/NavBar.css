@@ -1,3 +1,8 @@
+.container-navbar{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 div.container-navbar{
     display: flex;
     width: 100vw;
@@ -5,14 +10,14 @@ div.container-navbar{
     color: black;
     padding: 2px 20px;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 nav {
     display: flex;
 }
 header{
-    width: calc(100% - 60px);
+    width: calc(100%);
 }
 header > div nav ul {
     display: flex;
@@ -31,3 +36,22 @@ header > div nav ul {
     font-size: 20px;
     font-weight: 800;
   }
+
+/*
+Medias queries
+*/
+@media only screen and (max-width: 500px) {
+  header > div nav ul li a {
+    font-size:  0.6rem;
+    padding: 1px 8px;
+  }
+  div.container-navbar{
+    display: flex;
+    width: 100vw;
+    padding: 1px 5px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+  
+}

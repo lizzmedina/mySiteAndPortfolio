@@ -1,31 +1,28 @@
-.container-home{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
+/*HOME*/
 .container-home p {
-    margin: 30px;
+    margin: 30px  ;
     font-size: 20px;
     text-align: justify;
 }
-
+/*ABOUT ME*/
 .container-about{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+   
 }
 .container-about p{
     font-size: 1rem;
     margin: 10px;
     text-align: justify;
+    width: 85%;
 }
 .container-about li{
     font-size: 0.8rem;
     margin: 15px;
 }
-.container-about h1{
+.container-about h2{
     font-size: 2rem;
     margin-top: 30px;
 }
@@ -35,4 +32,91 @@
 }
 .container-content p, ul{
     margin: 30px;
+}
+.container-titulo{
+    display: flex;
+    justify-content: center;
+
+}
+.container-about-photo img{
+    width: 200px;
+    border-radius: 50%;
+}
+.container-content{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.container-head{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+/*CONTACT INFO*/
+
+/*MY PROJECTS*/
+
+/*
+Medias queries
+*/
+@media only screen and (max-width: 500px) {
+    /* HOME */
+    .container-home{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .container-home p{
+        margin: 15px 30px;
+        font-size: 14px;
+    }
+    .container-home img {
+        width: 150px;
+        border-radius: 50%;
+    }
+
+    /* ABOUT ME */
+    .container-head {
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .container-about-photo img{
+        width: 125px;
+    }
+    .container-content ul{
+        margin: 20px;
+        
+    }
+    .container-about p, li {
+        font-size: 12px;
+        
+    }
+    .container-about h5 {
+        font-size: 1.2rem;
+        margin: 10px 30px;
+    }
+    .container-about h2  {
+        margin-top:  10px;
+    }
+    .container-titulo{
+        margin: 10px 25px;
+    }
+
+    /*CONTACT INFO*/
+
+    /*MY PROJECTS*/
 }
