@@ -3,16 +3,24 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: center;    
+    align-items: stretch;
+    align-content: space-around;
 }
 .container-home p {
     margin: 30px  ;
     font-size: 20px;
     text-align: justify;
 }
+.container-photo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
   .container-photo  img{        
-        width: 130px;
-        margin-top: 25px;
+        width: 150px;
+        margin-top: 25px;        
+        margin-left: 30px;
     }
     .photo{
         border-radius: 50%;
@@ -31,7 +39,7 @@
     width: 85%;
 }
 .container-about li{
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 15px;
 }
 .container-about h2{
@@ -59,7 +67,7 @@
     width: 100vw;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
+    align-content: space-around;
 }
 .container-head{
     display: flex;
@@ -91,11 +99,16 @@ Medias queries
         font-size: 14px;
     }
      .container-home img {
-        width: 150px;
+        width: 100px;
+        height: 125px;
         border-radius: 50%;
         margin-top: 0px;
+        margin-left: 20px;
     } 
-   
+    .container-photo {
+        display:flex ;
+        align-items: center;
+    }
 
     /* ABOUT ME */
     .container-head {
@@ -107,20 +120,19 @@ Medias queries
         flex-wrap: wrap;
         margin-top: 0px;
     }
-    .container-about-photo img{
-        width: 125px;
-    }
   
     .container-content ul{
         margin: 20px;
         
     }
-    .container-about p, li {
-        font-size: 12px;
-        
+    .container-about p  {
+        font-size: 12px;        
+    }
+    .container-about li {
+        font-size: 12px;        
     }
     .container-about h5 {
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin: 10px 30px;
     }
     .container-about h2  {
