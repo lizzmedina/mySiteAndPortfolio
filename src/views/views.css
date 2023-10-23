@@ -1,16 +1,28 @@
 /*HOME*/
+.container-home{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
 .container-home p {
     margin: 30px  ;
     font-size: 20px;
     text-align: justify;
 }
+  .container-photo  img{        
+        width: 130px;
+        margin-top: 25px;
+    }
+    .photo{
+        border-radius: 50%;
+    } 
 /*ABOUT ME*/
 .container-about{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-   
 }
 .container-about p{
     font-size: 1rem;
@@ -68,7 +80,6 @@ Medias queries
 @media only screen and (max-width: 500px) {
     /* HOME */
     .container-home{
-        height: 600px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -79,10 +90,12 @@ Medias queries
         margin: 15px 30px;
         font-size: 14px;
     }
-    .container-home img {
+     .container-home img {
         width: 150px;
         border-radius: 50%;
-    }
+        margin-top: 0px;
+    } 
+   
 
     /* ABOUT ME */
     .container-head {
@@ -97,6 +110,7 @@ Medias queries
     .container-about-photo img{
         width: 125px;
     }
+  
     .container-content ul{
         margin: 20px;
         
