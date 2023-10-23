@@ -5,7 +5,7 @@ import CardProject from './CardProject';
 const GridProjects = () => {
   const [projects, setProjects] = useState<ProjectData[]>([]);
   const getData = () => {
-    fetch('src/components/projectsInfo/projects.json')
+    fetch('public/archivos/projects.json')
     .then((response) => {
       if (!response.ok) {
         //throw new Error(`Network response was not ok: ${response.status}`);
