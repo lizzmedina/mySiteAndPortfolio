@@ -5,7 +5,8 @@ import CardProject from './CardProject';
 const GridProjects = () => {
   const [projects, setProjects] = useState<ProjectData[]>([]);
   const getData = () => {
-    fetch('public/archivos/projects.json')
+    fetch('https://gist.githubusercontent.com/lizzmedina/ca071e386aba471023c03915874d521b/raw/cbb8a0c4dbe4db4a4fd13cc2375c93383ffd449c/myProjects')
+
     .then((response) => {
       if (!response.ok) {
         //throw new Error(`Network response was not ok: ${response.status}`);
