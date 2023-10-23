@@ -8,7 +8,7 @@ const AboutMe: React.FC = () => {
             <h2>About Me</h2>
           </div>          
           <div className="container-about-photo">
-            <img src="public/images/myPhoto.png" alt="foto de liza" />          
+            <img src="/images/myPhoto.png" alt="foto de liza" />          
           </div>
         </div>
         

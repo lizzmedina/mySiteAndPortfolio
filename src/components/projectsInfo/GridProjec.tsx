@@ -6,7 +6,7 @@ const GridProjects = () => {
   const [projects, setProjects] = useState<ProjectData[]>([]);
   const rutaDataProjects = 'https://gist.githubusercontent.com/lizzmedina/ca071e386aba471023c03915874d521b/raw/cbb8a0c4dbe4db4a4fd13cc2375c93383ffd449c/myProjects';
   const getData = () => {
-    fetch(rutaDataProjects)
+    fetch('/archivos/projects.json')
     // '/archivos/projects.json'
     .then((response) => {
       if (!response.ok) {
