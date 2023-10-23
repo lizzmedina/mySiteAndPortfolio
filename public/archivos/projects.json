@@ -1,7 +1,7 @@
 [
     {
      "id": 1,
-      "imageSrc": "public/images/rickAndMorty.png",
+      "imageSrc": "/images/rickAndMorty.png",
       "description": "Proyecto creado para el final de la materia...",
       "toolsUsed": "React, TypeScript, CRA, Redux, Thunk",
       "repoLink": "https://github.com/lizzmedina/rick-and-morty-app",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-      "imageSrc": "public/images/dhOdonto.png",
+      "imageSrc": "/images/dhOdonto.png",
       "description": "Proyecto creado para el final de la materia de back...",
       "toolsUsed": "Java, SpringBoot",
       "repoLink": "https://github.com/lizzmedina/clinicaOdontologica",
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-      "imageSrc": "public/images/rickAndMorty.png",
+      "imageSrc": "/images/rickAndMorty.png",
       "description": "Descripción del tercer proyecto...",
       "toolsUsed": "Tecnologías utilizadas en el tercer proyecto...",
       "repoLink": "Enlace al repositorio del tercer proyecto",
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-      "imageSrc": "public/images/rickAndMorty.png",
+      "imageSrc": "/images/rickAndMorty.png",
       "description": "Descripción del cuarto proyecto...",
       "toolsUsed": "Tecnologías utilizadas en el cuarto proyecto...",
       "repoLink": "Enlace al repositorio del cuarto proyecto",
