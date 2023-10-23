@@ -5,7 +5,7 @@ const Home: React.FC = () => {
     return (
       <div className="container-home">
         <div className="container-photo">
-          <img src={"public/images/myPhoto.png"} alt="foto de liza"  className="photo"/>
+          <img src="/images/myPhoto.png" alt="foto de liza"  className="photo"/>
          
           <div>
           <p>Hello, I'm Liza! 👋 I'm a passionate learner and a software developer. With a
