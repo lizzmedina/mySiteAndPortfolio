@@ -79,7 +79,37 @@
     margin-top: 30px;
 }
 /*CONTACT INFO*/
-
+.container-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-items: center;
+    width: 100vw;
+}
+.container-contact h2{
+    align-self: center;
+}
+.container-contact h2, p{
+    margin : 20px;
+}
+.list-contact {
+    display: flex;    
+    flex-direction: column;
+}
+.container-contact ul li{
+    margin : 10px;
+}
+ .img-linkeding{
+    width: 35px;
+}
+.img-github{
+ width: 35px;
+}
+.img-download {
+    height: 35px;
+    width: 35px;
+}
 /*MY PROJECTS*/
 
 /*

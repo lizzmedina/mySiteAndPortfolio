@@ -4,14 +4,12 @@ import { ProjectData } from './Proyect.interface';
 import CardProject from './CardProject';
 const GridProjects = () => {
   const [projects, setProjects] = useState<ProjectData[]>([]);
-  const rutaDataProjects = 'https://gist.githubusercontent.com/lizzmedina/ca071e386aba471023c03915874d521b/raw/cbb8a0c4dbe4db4a4fd13cc2375c93383ffd449c/myProjects';
+  
   const getData = () => {
     fetch('/archivos/projects.json')
-    // '/archivos/projects.json'
     .then((response) => {
       if (!response.ok) {
-        throw new Error(`Network response was not ok: ${response.status}`);
-        //console.log("algo salió mal.");
+        throw new Error(`Network response was not ok: ${response.status}`);        
       }
       return response.json();
     })
