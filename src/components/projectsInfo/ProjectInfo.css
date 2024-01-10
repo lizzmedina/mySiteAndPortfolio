@@ -2,20 +2,35 @@
 .container-projects{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
+    width: 100%;
+}
+.projects-tittle{
+    margin: 15px;
 }
 .grid-projects{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
 }
 .project-card{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    margin: 10px; 
+    padding: 10px;
+    width: 350px;
 }
 .project-card img{
-    width: 200px;
+    width: 100%;
+}
+.project-description{
+    text-align: justify;
+}
+@media (max-width: 500px) {
+    .grid-projects {
+        flex-direction: column;
+    }
 }

@@ -2,33 +2,53 @@
     {
      "id": 1,
       "imageSrc": "/images/rickAndMorty.png",
-      "description": "Proyecto creado para el final de la materia...",
-      "toolsUsed": "React, TypeScript, CRA, Redux, Thunk",
+      "description": "Project created for the final of the frontend course, where I was able to put TypeScript into practice for the first time and the tools mentioned below, which, except for React, were all new to me",
+      "toolsUsed": "React, TypeScript, CRA, Redux, Thunk, HTML, CSS",
       "repoLink": "https://github.com/lizzmedina/rick-and-morty-app",
       "viewLink": "https://rick-and-morty-characters-app.vercel.app/"
     },
     {
         "id": 2,
       "imageSrc": "/images/dhOdonto.png",
-      "description": "Proyecto creado para el final de la materia de back...",
-      "toolsUsed": "Java, SpringBoot",
-      "repoLink": "https://github.com/lizzmedina/clinicaOdontologica",
+      "description": "Project created for the final assignment in the frontend course, using React to build the interface of a dental clinic. It allows favoriting items, toggling the global state between light and dark mode, and viewing detailed information on the cards.",
+      "toolsUsed": "JavaScript, React, react-router-dom, HTML, CSS, react-context",
+      "repoLink": "https://github.com/lizzmedina/consultorioOdontologicoFront",
       "viewLink": "https://dentistpagefinalfrontend.vercel.app/"
     },
     {
         "id": 3,
-      "imageSrc": "/images/rickAndMorty.png",
-      "description": "Descripción del tercer proyecto...",
-      "toolsUsed": "Tecnologías utilizadas en el tercer proyecto...",
-      "repoLink": "Enlace al repositorio del tercer proyecto",
-      "viewLink": "Enlace para visualizar el tercer proyecto"
+      "imageSrc": "/images/petPlace.png",
+      "description": "PetPlace is the final group project for the 'Certified Tech Developer' course, where, following Scrum framework dynamics, we developed a pet lodging booking website from scratch. I was involved specifically in the frontend aspect of the project.",
+      "toolsUsed": "React, HTML, CSS, Yup, MUI, FontAwesome, SweetAlert, React-Calendar, React-Icons, react-router-dom",
+      "repoLink": "https://github.com/lizzmedina/petplace"
     },
     {
         "id": 4,
-      "imageSrc": "/images/rickAndMorty.png",
-      "description": "Descripción del cuarto proyecto...",
-      "toolsUsed": "Tecnologías utilizadas en el cuarto proyecto...",
-      "repoLink": "Enlace al repositorio del cuarto proyecto",
-      "viewLink": "Enlace para visualizar el cuarto proyecto"
-    }
+      "imageSrc": "/images/myProfile.png",
+      "description": "It's my personal project to show my projects, educational background, and contact information in a simple and clear manner for potential selection processes. The goal is to continuously improve it by adding more projects over time.",
+      "toolsUsed": "React, TypeScript, react-router-dom, HTML, CSS",
+      "repoLink": "https://github.com/lizzmedina/mySiteAndPortfolio",
+      "viewLink": "https://my-site-and-portfolio-hfbl7m0hx-lizzmedina.vercel.app/"
+    },
+    {
+      "id": 5,
+    "imageSrc": "/images/myProfile.png",
+    "description": "Transactional app created as part of the practical project in the Makaia's backend Bootcamp",
+    "toolsUsed": "Java, Spring Boot, JWT, Spring MVC, Maven, H2 Database and MySQL, Lombok, Spring Boot Starter Data JPA and Spring Boot Starter Web, JUnit Jupiter, Spring Boot Test ",
+    "repoLink": "https://github.com/lizzmedina/JeliBank"
+  },
+  {
+    "id": 6,
+    "imageSrc": "/images/automatization.png",
+    "description": "Automation tests completed for the final evaluation in the Testing cosubject.",
+    "toolsUsed": "Java, Selenium and Rest Azured ",
+    "repoLink": "https://github.com/lizzmedina/automatizationTest2"
+  },
+  {
+    "id": 6,
+    "imageSrc": "/images/powerBi.png",
+    "description": "Data analysis about some Steam's fake data as part of a groupal project.",
+    "toolsUsed": "Power BI",
+    "repoLink": "https://github.com/lizzmedina/DataAnalysis"
+  }
   ]

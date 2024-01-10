@@ -5,7 +5,7 @@ import GridProjects from '../components/projectsInfo/GridProjec';
 const Projects: React.FC = () => {
   return (
     <div className='container-projects'>
-      <h1>My Projects</h1>     
+      <h1 className= "projects-tittle">My Projects</h1>     
       <GridProjects  />
     </div>
   );

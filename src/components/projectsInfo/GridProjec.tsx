@@ -1,8 +1,9 @@
-
 import { useEffect, useState } from 'react';
 import { ProjectData } from './Proyect.interface';
 import CardProject from './CardProject';
+
 const GridProjects = () => {
+  
   const [projects, setProjects] = useState<ProjectData[]>([]);
   
   const getData = () => {
@@ -36,6 +37,5 @@ const GridProjects = () => {
     </div>
   );
 };
-
 
 export default GridProjects;

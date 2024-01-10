@@ -10,7 +10,6 @@ import './ProjectInfo.css';
   }) => {
 
     return (
-
       <div className="project-card">
         <img src={imageSrc} alt="Project" />
         <div className="project-details">
@@ -21,8 +20,7 @@ import './ProjectInfo.css';
           </a></p>
           <p><a href={viewLink} target="_blank" rel="noopener noreferrer">
             Visualizar Proyecto
-          </a></p>
-          
+          </a></p>          
         </div>
       </div>
     );
