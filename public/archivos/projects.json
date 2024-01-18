@@ -20,7 +20,8 @@
       "imageSrc": "/images/petPlace.png",
       "description": "PetPlace is the final group project for the 'Certified Tech Developer' course, where, following Scrum framework dynamics, we developed a pet lodging booking website from scratch. I was involved specifically in the frontend aspect of the project.",
       "toolsUsed": "React, HTML, CSS, Yup, MUI, FontAwesome, SweetAlert, React-Calendar, React-Icons, react-router-dom",
-      "repoLink": "https://github.com/lizzmedina/petplace"
+      "repoLink": "https://github.com/lizzmedina/petplace",
+      "viewLink": "/images/petPlace.png"
     },
     {
         "id": 4,
@@ -32,23 +33,26 @@
     },
     {
       "id": 5,
-    "imageSrc": "/images/myProfile.png",
+    "imageSrc": "/images/appJelibank.png",
     "description": "Transactional app created as part of the practical project in the Makaia's backend Bootcamp",
     "toolsUsed": "Java, Spring Boot, JWT, Spring MVC, Maven, H2 Database and MySQL, Lombok, Spring Boot Starter Data JPA and Spring Boot Starter Web, JUnit Jupiter, Spring Boot Test ",
-    "repoLink": "https://github.com/lizzmedina/JeliBank"
+    "repoLink": "https://github.com/lizzmedina/JeliBank",
+    "viewLink": "/images/appJelibank.png"
   },
   {
     "id": 6,
     "imageSrc": "/images/automatization.png",
     "description": "Automation tests completed for the final evaluation in the Testing cosubject.",
     "toolsUsed": "Java, Selenium and Rest Azured ",
-    "repoLink": "https://github.com/lizzmedina/automatizationTest2"
+    "repoLink": "https://github.com/lizzmedina/automatizationTest2",
+    "viewLink": "https://github.com/lizzmedina/automatizationTest2"
   },
   {
     "id": 6,
     "imageSrc": "/images/powerBi.png",
     "description": "Data analysis about some Steam's fake data as part of a groupal project.",
     "toolsUsed": "Power BI",
-    "repoLink": "https://github.com/lizzmedina/DataAnalysis"
+    "repoLink": "https://github.com/lizzmedina/DataAnalysis",
+    "viewLink": "/images/powerBi.png"
   }
   ]

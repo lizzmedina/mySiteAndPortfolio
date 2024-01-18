@@ -14,7 +14,7 @@ import './ProjectInfo.css';
         <img src={imageSrc} alt="Project" />
         <div className="project-details">
           <p className="project-description">{description}</p>
-          <p className="project-tools">Tools: {toolsUsed}</p>
+          <p className="project-tools">Tools:  {toolsUsed}</p>
           <p><a href={repoLink} target="_blank" rel="noopener noreferrer">
             Ver Repositorio
           </a></p>

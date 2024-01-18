@@ -6,10 +6,11 @@
     align-items: center;    
     align-items: stretch;
     align-content: space-around;
+    margin: 4rem 10rem;
 }
 .container-home p {
-    margin: 30px  ;
-    font-size: 20px;
+    margin: 1rem  ;
+    font-size: 1.8rem;
     text-align: justify;
 }
 .container-photo {
@@ -17,7 +18,7 @@
     flex-direction: row;
     align-items: center;
 }
-  .container-photo  img{        
+.container-photo  img{        
         width: 150px;
         margin-top: 25px;        
         margin-left: 30px;
@@ -33,21 +34,21 @@
     flex-direction: column;
 }
 .container-about p{
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 10px;
     text-align: justify;
     width: 85%;
 }
 .container-about li{
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 15px;
 }
 .container-about h2{
-    font-size: 2rem;
+    font-size: 4rem;
     margin-top: 30px;
 }
 .container-about  h5{
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 30px;
 }
 .container-content p, ul{
@@ -88,33 +89,51 @@
     width: 100vw;
 }
 .container-contact h2{
-    align-self: center;
-}
-.container-contact h2, p{
     margin : 20px;
+    align-self: center;
+    font-size: 4rem;
+}
+.container-contact  p{
+    margin : 20px;
+    font-size: 2rem;
 }
 .list-contact {
     display: flex;    
     flex-direction: column;
+    font-size: 2rem;
 }
 .container-contact ul li{
     margin : 10px;
 }
- .img-linkeding{
+.img-linkeding{
     width: 35px;
 }
 .img-github{
- width: 35px;
+    width: 35px;
 }
 .img-download {
     height: 35px;
     width: 35px;
 }
-/*MY PROJECTS*/
-
 /*
 Medias queries
 */
+
+@media only screen and (max-width: 1200px) {
+    /* HOME */
+    .container-home{
+        margin: 2rem 5rem;        
+    }
+}
+@media only screen and (max-width: 700px) {
+    /* HOME */
+    .container-home{
+        margin: 1rem 1rem;        
+    }
+     .container-home p{
+        font-size: 1.3rem;
+    }
+}
 @media only screen and (max-width: 500px) {
     /* HOME */
     .container-home{
@@ -122,13 +141,14 @@ Medias queries
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
-        margin-top: 30px;
+        margin: 1rem;
+        margin-top: 30px;        
     }
     .container-home p{
         margin: 15px 30px;
         font-size: 14px;
     }
-     .container-home img {
+    .container-home img {
         width: 100px;
         height: 125px;
         border-radius: 50%;
@@ -150,7 +170,6 @@ Medias queries
         flex-wrap: wrap;
         margin-top: 0px;
     }
-  
     .container-content ul{
         margin: 20px;
         
@@ -173,6 +192,13 @@ Medias queries
     }
 
     /*CONTACT INFO*/
-
-    /*MY PROJECTS*/
+    .container-contact h2{
+        font-size: 2rem;
+    }
+    .container-contact  p{
+        font-size: 1rem;
+    }
+    .list-contact {
+        font-size: 1rem;
+    }
 }
